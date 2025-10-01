@@ -11,7 +11,7 @@ html_code = f"""
 <div id="did-agent-container" style="width: 80%; height: 600px;"></div>
 <script type="module"
     src="https://agent.d-id.com/v2/index.js"
-    data-mode="fabio"
+    data-mode="full"
     data-client-key="{CLIENT_KEY}"
     data-agent-id="{AGENT_ID}"
     data-name="did-agent"
@@ -21,3 +21,4 @@ html_code = f"""
 """
 
 components.html(html_code, height=650)
+
